@@ -6,10 +6,11 @@ interface StringReverser {
 }
 
 public class Exercise8 {
-    public static void reverseString() {
+    public static void reverseString(String in) {
         StringReverser reverser = input -> new StringBuilder(input).reverse().toString();
-        String original = "hello";
-        String reversed = reverser.reverse(original);
+        String reversed = reverser.reverse(in);
         System.out.println(reversed);
     }
 }
+
+

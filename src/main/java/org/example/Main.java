@@ -21,7 +21,7 @@ public class Main {
         Exercise5.getPiValue();
         Exercise6.sortStringsByLength();
         Exercise7.sortStringsByLengthDescending();
-        Exercise8.reverseString();
+        Exercise8.reverseString("Hello World");
 
     }
 }
